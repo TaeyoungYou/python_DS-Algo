@@ -1,0 +1,33 @@
+head -> Node01 -> point: NOde02
+        Node02 -> point: Node03
+        Node03 -> point: Node04
+        Node04 -> point: Node05
+tail -> Node05 -> point: null
+
+Big O on Linked Lists
+
+if wants to add/remove Node on front and last
+
+...
+        Node05 -> point: Node06
+tail -> Node06 -> point: null
+--> O(n)
+
+head -> Node00 -> point: Node01
+        Node01 -> point: Node02
+...
+--> O(1)
+
+add Node in the middle
+origin
+head -> Node01 -> point: Node02
+        Node02 -> point: Node03
+tail -> Node03 -> point: null
+changed
+head -> Node01 -> point: Node02
+        Node02 -> point: midNode
+tail -> Node03 -> point: null
+: midNode -> point -> Node03
+--> O(n)
+
+Node = dictionary {"value":10, "next":None}

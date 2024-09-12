@@ -1,0 +1,9 @@
+Time Comploexity(시간 복잡도): 
+    실행 속도가 아닌, 무언가를 완료하는데 필요한 작업 횟수로 측정
+Space Comploexity(공간 복잡도):
+    실행에 필요한 메모리 공간을 입력 크기에 따라 측정
+
+Best Case: 오메가
+Average Case: 세타
+Worst Case: 오미크론 or 빅오
+
