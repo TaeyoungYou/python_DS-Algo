@@ -1,0 +1,21 @@
+Trees (Basic Binary tree)
+Node has 2 arrows
+    value, left, right
+
+Full tree
+    : Every node either points to zero nodes or two nodes
+Perfect tree
+    : any node is completely filled all the way across
+Complete tree
+    : filling the tree from left to right with no gaps
+
+Parent Node, Child Node(siblings)
+
+"every node can only have one parent"
+
+leaf: nodes at the bottom, they don't have any children, and a node that doesn't
+have chlidren
+
+always compare with Parent node
+if greater than parent, go to right
+if less than parent, go to left

@@ -1,0 +1,8 @@
+hash table
+    [key, value] -> hash function machine -> address
+
+collision
+    separate chaining: if the address already has key and value list, 
+    go down to find empty address (linear probing)
+
+    make linked list at same address
