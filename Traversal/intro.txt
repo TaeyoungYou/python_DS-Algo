@@ -1,0 +1,5 @@
+Breadth First Search
+    레벨 탐색 - 부모, 자식, 자손 ... 레벨 순으로
+
+Depth First Search
+    노드 맨 왼쪽부터 차례대로 오른쪽까지

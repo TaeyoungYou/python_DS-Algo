@@ -1,0 +1,19 @@
+Recursion
+    A function that calls itself... ... util it doesn't
+
+Pseudo code
+    def open_gift_box():
+        if ball:
+            return ball # function doesn't call itself anymore, let's get out
+        open_gift_box() # call itself
+
+    def open_gift_box():
+        open_gift_box() # Stack Overflow..!, call itself, so on
+
+return statement should be in recursive function
+
+Call Stack
+    method를 호출하면 Stack Memory에 쌓인다.
+    만약 method안에 다른 method를 부른다면 method안에 reference(call back memory)를 저장 후,
+    다른 method를 Stack Memory에 쌓는다. 
+    만약, 끝이 났다면, call back함수를 불러, 원래 있던 method로 돌아간다
